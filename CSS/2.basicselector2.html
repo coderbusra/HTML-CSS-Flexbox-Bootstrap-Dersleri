@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Selectors</title>
+    <style>
+        /* #id .class
+        /*h1{
+            color: red;
+            background-color: blue;
+        }
+        p{
+            color: rgb(226, 226, 232);
+            background-color: rgb(131, 43, 226);
+        } //h1,p{} şeklindede tek bir selector içinde de seçilebiliyor*/
+        /*#logo{
+            color: burlywood;
+            background: darkblue;
+        }*/ 
+        /*.info{
+            color: black;
+            background: yellow;
+        }*/
+        /*#logo, .info { //id si logo classı info olanlar 
+            color: black;
+            background-color: violet;
+        }*/
+        /*#para1.lead{ /* ıd para bir ve aynı zamanda clası lead olanı seç  
+
+        } */
+        /*a{
+            text-decoration: none;
+        }*/
+        /*ul li a {
+            text-decoration: none; 
+        }*/
+        /*.info span {
+            color: rgb(160, 0, 27)68, 52, 55);
+        }*/
+        /*.info .primary {
+            color: rgb(0, 139, 28);
+        }*/
+        *{
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="logo">Logo</h1>
+        <ul>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+            <li><a href="#">Services</a></li>
+        </ul>
+    </header>
+    <h1>
+        Header 2
+    </h1>
+        <p class="lead info">Lorem ipsum <span class="primary">dolor</span>  sit, amet consectetur adipisicing elit. Aspernatur, non.
+    </p>
+    <p class="info">
+        Lorem ipsum <span>dolor</span> sit amet consectetur adipisicing elit. Recusandae laboriosam iusto quos mollitia temporibus odit ipsa cumque, quisquam dicta aliquam et illo. Veniam quas ab, excepturi facere sed culpa eligendi.
+    </p>
+    <p class="info">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi sapiente et eos odit. Cumque odit repellendus, nihil et nam rerum pariatur? Ab ipsam, maiores facere quibusdam aliquid molestias provident sapiente?
+    </p>
+    <p>Test paragraph</p>
+    <a href="#">Home</a>
+</body>
+</html>

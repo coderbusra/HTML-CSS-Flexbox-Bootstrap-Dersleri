@@ -1,0 +1,19 @@
+.isim
+{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.email
+{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+
+}
+.mesaj{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
